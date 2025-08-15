@@ -15,7 +15,7 @@ class ValidateUser(BaseModel):
     age:int
 
 
-@app.post("/update/{user_id}")
+@app.put("/update/{user_id}")
 def user_update(user_id:int,user:ValidateUser):
     if user_id in user_db:
         user_db[user_id]=user.dict()
