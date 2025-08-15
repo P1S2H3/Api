@@ -1,0 +1,33 @@
+# Environment and secrets
+python-dotenv
+
+# LangChain and related integrations
+langchain
+langchain-community
+langchain-groq
+
+# LLM backends
+groq
+euriai
+
+# Vector DB
+chromadb
+
+# Embeddings and Transformers
+sentence-transformers
+transformers
+torch
+
+# Web scraping
+bs4
+selenium
+webdriver-manager
+
+# App UI
+streamlit
+PyPDF2
+
+#you tube
+youtube-transcript-api
+tiktoken
+pytube
